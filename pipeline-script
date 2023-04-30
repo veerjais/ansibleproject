@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+    stages {
+        stage('checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/nsrdnmb/ansibleproject.git'
+            }
+        }
+        stage('playbook') {
+            steps {
+                ansiblePlaybook credentialsId: '42759410-8746-44b3-a3c6-1bdc61ab5eba', disableHostKeyChecking: true, installation: 'Ansible', inventory: 'test.ini', playbook: 'playbook.yml'
+                // ansiblePlaybook credentialsId: '42759410-8746-44b3-a3c6-1bdc61ab5eba', inventory: '/etc/ansible/hosts', playbook: 'playbook.yml'
+            }
+        }
+    }
+}
