@@ -12,7 +12,9 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1682852561,,"wq"
+|2,0,1682854246,,"wq"
+:q
+|2,0,1682854068,,"q"
 
 # Search String History (newest to oldest):
 
@@ -31,22 +33,70 @@
 |3,1,1,1,4,0,1682852545,"STEP-5: CONNECTION","public-ip:8080 (browser)","","yum remove java* -y"
 
 # File marks:
-'0  13  4  ~/jenkins.sh
-|4,48,13,4,1682852561,"~/jenkins.sh"
-'1  130  6  ~/index.html
-|4,49,130,6,1682852502,"~/index.html"
-'2  12  29  ~/playbook.yml
-|4,50,12,29,1682852472,"~/playbook.yml"
+'0  3  0  ~/test.ini
+|4,48,3,0,1682854246,"~/test.ini"
+'1  1  0  /etc/ansible/hosts
+|4,49,1,0,1682854068,"/etc/ansible/hosts"
+'2  13  4  ~/jenkins.sh
+|4,50,13,4,1682852561,"~/jenkins.sh"
+'3  130  6  ~/index.html
+|4,51,130,6,1682852502,"~/index.html"
+'4  12  29  ~/playbook.yml
+|4,52,12,29,1682852472,"~/playbook.yml"
 
 # Jumplist (newest first):
+-'  3  0  ~/test.ini
+|4,39,3,0,1682854246,"~/test.ini"
+-'  1  0  ~/test.ini
+|4,39,1,0,1682854233,"~/test.ini"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1682854068,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1682854068,"/etc/ansible/hosts"
 -'  13  4  ~/jenkins.sh
 |4,39,13,4,1682852561,"~/jenkins.sh"
+-'  13  4  ~/jenkins.sh
+|4,39,13,4,1682852561,"~/jenkins.sh"
+-'  13  4  ~/jenkins.sh
+|4,39,13,4,1682852561,"~/jenkins.sh"
+-'  13  4  ~/jenkins.sh
+|4,39,13,4,1682852561,"~/jenkins.sh"
+-'  1  0  ~/jenkins.sh
+|4,39,1,0,1682852509,"~/jenkins.sh"
+-'  1  0  ~/jenkins.sh
+|4,39,1,0,1682852509,"~/jenkins.sh"
+-'  1  0  ~/jenkins.sh
+|4,39,1,0,1682852509,"~/jenkins.sh"
 -'  1  0  ~/jenkins.sh
 |4,39,1,0,1682852509,"~/jenkins.sh"
 -'  130  6  ~/index.html
 |4,39,130,6,1682852502,"~/index.html"
 -'  130  6  ~/index.html
 |4,39,130,6,1682852502,"~/index.html"
+-'  130  6  ~/index.html
+|4,39,130,6,1682852502,"~/index.html"
+-'  130  6  ~/index.html
+|4,39,130,6,1682852502,"~/index.html"
+-'  130  6  ~/index.html
+|4,39,130,6,1682852502,"~/index.html"
+-'  130  6  ~/index.html
+|4,39,130,6,1682852502,"~/index.html"
+-'  130  6  ~/index.html
+|4,39,130,6,1682852502,"~/index.html"
+-'  130  6  ~/index.html
+|4,39,130,6,1682852502,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1682852476,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1682852476,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1682852476,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1682852476,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1682852476,"~/index.html"
+-'  1  0  ~/index.html
+|4,39,1,0,1682852476,"~/index.html"
 -'  1  0  ~/index.html
 |4,39,1,0,1682852476,"~/index.html"
 -'  1  0  ~/index.html
@@ -59,6 +109,54 @@
 |4,39,12,29,1682852472,"~/playbook.yml"
 -'  12  29  ~/playbook.yml
 |4,39,12,29,1682852472,"~/playbook.yml"
+-'  12  29  ~/playbook.yml
+|4,39,12,29,1682852472,"~/playbook.yml"
+-'  12  29  ~/playbook.yml
+|4,39,12,29,1682852472,"~/playbook.yml"
+-'  12  29  ~/playbook.yml
+|4,39,12,29,1682852472,"~/playbook.yml"
+-'  12  29  ~/playbook.yml
+|4,39,12,29,1682852472,"~/playbook.yml"
+-'  12  29  ~/playbook.yml
+|4,39,12,29,1682852472,"~/playbook.yml"
+-'  12  29  ~/playbook.yml
+|4,39,12,29,1682852472,"~/playbook.yml"
+-'  12  29  ~/playbook.yml
+|4,39,12,29,1682852472,"~/playbook.yml"
+-'  12  29  ~/playbook.yml
+|4,39,12,29,1682852472,"~/playbook.yml"
+-'  12  29  ~/playbook.yml
+|4,39,12,29,1682852472,"~/playbook.yml"
+-'  12  29  ~/playbook.yml
+|4,39,12,29,1682852472,"~/playbook.yml"
+-'  12  29  ~/playbook.yml
+|4,39,12,29,1682852472,"~/playbook.yml"
+-'  12  29  ~/playbook.yml
+|4,39,12,29,1682852472,"~/playbook.yml"
+-'  1  0  ~/playbook.yml
+|4,39,1,0,1682852452,"~/playbook.yml"
+-'  1  0  ~/playbook.yml
+|4,39,1,0,1682852452,"~/playbook.yml"
+-'  1  0  ~/playbook.yml
+|4,39,1,0,1682852452,"~/playbook.yml"
+-'  1  0  ~/playbook.yml
+|4,39,1,0,1682852452,"~/playbook.yml"
+-'  1  0  ~/playbook.yml
+|4,39,1,0,1682852452,"~/playbook.yml"
+-'  1  0  ~/playbook.yml
+|4,39,1,0,1682852452,"~/playbook.yml"
+-'  1  0  ~/playbook.yml
+|4,39,1,0,1682852452,"~/playbook.yml"
+-'  1  0  ~/playbook.yml
+|4,39,1,0,1682852452,"~/playbook.yml"
+-'  1  0  ~/playbook.yml
+|4,39,1,0,1682852452,"~/playbook.yml"
+-'  1  0  ~/playbook.yml
+|4,39,1,0,1682852452,"~/playbook.yml"
+-'  1  0  ~/playbook.yml
+|4,39,1,0,1682852452,"~/playbook.yml"
+-'  1  0  ~/playbook.yml
+|4,39,1,0,1682852452,"~/playbook.yml"
 -'  1  0  ~/playbook.yml
 |4,39,1,0,1682852452,"~/playbook.yml"
 -'  1  0  ~/playbook.yml
@@ -69,6 +167,18 @@
 |4,39,1,0,1682852452,"~/playbook.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/test.ini
+	*	1682854243	0
+	"	3	0
+	^	3	0
+	.	2	13
+	+	2	13
+
+> /etc/ansible/hosts
+	*	1682854062	0
+	"	1	0
+	^	1	0
 
 > ~/jenkins.sh
 	*	1682852559	0
