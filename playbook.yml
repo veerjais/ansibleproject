@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: install httpd
+      command: yum install httpd -y
+    - name: start httpd
+      command: systemctl start httpd
+    - name: deploy from git
+      git:
+        repo: "https://github.com/nsrdnmb/ansibleproject.git"
+        dest: "/var/www/html/"
